@@ -14,7 +14,7 @@ Este projeto é ideal para quem deseja aprender conceitos fundamentais de segura
 ## Tecnologias usadas
 - Node.js 
 - Express.js
-- MySQL (ou outro banco relacional)
+- MySQL
 - bcrypt
 - jsonwebtoken
 - Middleware Express para parsing JSON
@@ -24,7 +24,7 @@ Este projeto é ideal para quem deseja aprender conceitos fundamentais de segura
 ### Pré-requisitos
 - Node.js instalado
 - MySQL rodando localmente ou remotamente
-- Postman ou similar para testar API (opcional)
+- Postman ou similar para testar API
 
 ### Instalação e execução
 1. Clone o repositório:
