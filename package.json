@@ -1,0 +1,30 @@
+{
+  "name": "sistema-de-cadastro-e-autentica-o-de-clientes-com-bcrypt-e-jwt-",
+  "version": "1.0.0",
+  "description": "Este projeto é um sistema backend para cadastro e autenticação de clientes, construído usando Node.js e Express. Ele utiliza **bcrypt** para garantir a segurança das senhas armazenadas, transformando-as em hashes, e **JWT (JSON Web Tokens)** para autenticação stateless, permitindo que os usuários acessem rotas protegidas através de tokens gerados na hora do login.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaphaelSilva-TECH/Sistema-de-cadastro-e-autentica-o-de-clientes-com-bcrypt-e-JWT-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaphaelSilva-TECH/Sistema-de-cadastro-e-autentica-o-de-clientes-com-bcrypt-e-JWT-/issues"
+  },
+  "homepage": "https://github.com/RaphaelSilva-TECH/Sistema-de-cadastro-e-autentica-o-de-clientes-com-bcrypt-e-JWT-#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  }
+}
